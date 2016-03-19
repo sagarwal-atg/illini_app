@@ -1,0 +1,21 @@
+{
+  "name": "shubbha",
+  "authors": [
+    "Jonathan Reynolds <j14reynolds@gmail.com>"
+  ],
+  "description": "Website for dumb indian",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
