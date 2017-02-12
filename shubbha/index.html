@@ -6,6 +6,17 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/main.css" rel="stylesheet" media="screen">
+    <style>
+
+        video#bkd{
+            background:url(../img/yoyo1.jpg) no-repeat;
+            background-size: cover;
+            width:100%;
+            -webkit-filter: brightness(0.3);
+            filter: brightness(0.3);
+
+        }
+    </style>
   </head>
   <body>
     <div>
@@ -15,24 +26,32 @@
       </div>
       <div id="logo-container" class="container-fluid center-block vertical-align">
         <div class="container text-center">
-          <h1 class="uppercase normal-font">Illini</h1>
+          <h1 class="uppercase normal-font">Banana</h1>
         </div>
       </div>
       <div id="nav-container" class="container-fluid vertical-align">
         <div class="center-block text-center">
           <ul class="list-inline vcenter-parent" >
-            <li class="vcenter"><a href="#">Academic</a></li>
-            <li class="vcenter"><a href="#">Finance</a></li>
-            <li class="vcenter"><a href="#">Transportation</a></li>
-            <li class="vcenter"><a href="#">Dining</a></li>
-            <li class="vcenter"><a href="#">Resources</a></li>
+            <li class="vcenter"><a href="#">Plant Biology</a></li>
+            <li class="vcenter"><a href="#">Production</a></li>
+            <li class="vcenter"><a href="#">Commerce</a></li>
+            <li class="vcenter"><a href="#">History</a></li>
+            <li class="vcenter"><a href="#">Culture</a></li>
+            <li class="vcenter"><a href="#">Issues</a></li>
           </ul>
         </div>
       </div>
-      <div id="image-container" class="center-block container-fluid">
-      </div>
+
+    </div>
+    <div class="video-container">
+        <h1 class='mahesh'>51 percent of bananas are eaten for breakfast at home.</h1>
+        <video id="bkd" autoplay poster="../img/yoyo1.jpg" >
+
+            <source src="../shubbha/bananavideo.mp4" type="video/mp4">
+        </video>
     </div>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>

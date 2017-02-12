@@ -4,7 +4,7 @@ body{
 }
 
 #logo-container{
-  background-color: #FA6300;
+  background-color: #FFD700;
   letter-spacing: 6px;
   height: 150px;
 }
@@ -38,7 +38,7 @@ body{
 
 #nav-container {
   height: 50px;
-  background-color: #F2590D;
+  background-color: #008080;
 }
 
 #nav-container * {
@@ -53,7 +53,7 @@ body{
 
 #nav-container li:hover{
 
-  color: #131313;
+  color: #000000;
   background-color: white;
 }
 
@@ -63,15 +63,50 @@ body{
     text-decoration: none;
 }
 
-#image-container {
+/*#image-container {
   height: calc(100vh - 50px - 150px - 30px);
-  background-image:url(../img/yoyo.jpg);
+  background-image:url(../img/yoyo1.jpg);
   background-position: center;
   background-size: cover;
+}*/
+/*.video{
+    z-index: -30;
+}*/
+
+
+/* DEMO-SPECIFIC STYLES */
+
+ h1.mahesh {
+  border-right: .15em solid black;
+  margin: 0 auto;
+  color: #fff;
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 50;
+  left: 50%;
+  transform: translateX(-50%);
+  /*background:"../shubbha/bananavideo.mp4";*/
+  animation:
+    typing 4.5s steps( 30, end),
+    blink-caret .60s step-end infinite;
+
 }
 
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff; }
+}
+
+
 #search-container {
-  color: #222222;
+  color: #FFD700;
   height: 30px;
   font-size: 16px;
 }
@@ -83,4 +118,8 @@ body{
 .right {
     position: absolute;
     margin-left: calc(100% - 200px);
+}
+
+.video-container {
+    text-align: center;
 }
